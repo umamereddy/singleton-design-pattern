@@ -23,6 +23,7 @@ public class App {
         //    }
         LazySingleTon reflectionInstance = null;
         Constructor[] constructors = LazySingleTon.class.getDeclaredConstructors();
+
         for(Constructor constructor : constructors){
             constructor.setAccessible(true);
             reflectionInstance = (LazySingleTon) constructor.newInstance();

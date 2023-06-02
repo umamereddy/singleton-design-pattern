@@ -14,7 +14,7 @@ public class LazySingleTon extends MyClone  {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-         throw  new CloneNotSupportedException();
+         throw new CloneNotSupportedException();
     }
 
     public static synchronized LazySingleTon getInstance(){
