@@ -1,4 +1,4 @@
-package immutable;
+package com.immutable;
 
 import java.util.HashMap;
 import java.util.Map;
